@@ -9,13 +9,13 @@
 
     .tarjeta.color-adicional-1.mt-5
       .row.justify-content-center
-        .col-lg-8.col-md-8.justify-content-center
+        .col-lg-7
           p El servicio al cliente consiste en ofrecer toda la asesoría posible al cliente en el antes, durante y después de la compra, con el fin de cumplir con su satisfacción a través de la respuesta a sus solicitudes, preguntas y consultas frente a la organización del evento. Cada interacción del servicio al cliente es una oportunidad para que la organización crezca, ya que cuando se brinda de manera excelente, se convierte en un diferenciador competitivo que impulsa la fidelidad y el reconocimiento de la marca.
-          .cajon.color-secundario.p-4
+          .cajon.color-secundario.p-2
             p El servicio al cliente puede expresarse a través de elementos tangibles, como las comodidades y el ambiente que proporciona un establecimiento, la accesibilidad, la amabilidad de los vendedores, entre otros; y también con elementos intangibles como cuando se habla de una página web o una app móvil, donde se califica su buen funcionamiento, los canales de comunicación, los plazos de entrega y las políticas de devolución, etc.
-        .col-lg-4.col-md-4
+        .col-lg-5
           figure
-            img.mt-3(src='@/assets/curso/temas/tema1/tema1-img1.svg', alt='Texto que describa la imagen').img-animacion1
+            img.mt-3(src='@/assets/curso/temas/tema1/tema1-img1.png', alt='Texto que describa la imagen').img-animacion1
       
       .row.mt-5
         p Así pues, el servicio al cliente es importante desde diferentes perspectivas y teniendo en cuenta los siguientes parámetros:
@@ -25,21 +25,21 @@
             img.mt-3(src='@/assets/curso/temas/tema1/tema1-img2.svg', alt='Texto que describa la imagen')        
         .col-lg-7  
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-            .row(titulo="Conectar todos los puntos de contacto con el cliente: ")
+            .row(titulo="Conectar todos los puntos de contacto con el cliente")
               .col-md-12.mb-4.mb-md-0
-                p centros de contacto, canales digitales, e interacciones a lo largo del recorrido del consumidor.
-            .row(titulo="Brindar opciones de interacción:")
+                p Centros de contacto, canales digitales, e interacciones a lo largo del recorrido del consumidor.
+            .row(titulo="Brindar opciones de interacción")
               .col-md-12.mb-4.mb-md-0
-                p la idea es que el cliente pueda interactuar con el organizador de eventos bajo una gama amplia de opciones que puedan ser útiles en cualquier lugar y en cualquier momento.
-            .row(titulo="Ofrecer experiencias memorables:")
+                p La idea es que el cliente pueda interactuar con el organizador de eventos bajo una gama amplia de opciones que puedan ser útiles en cualquier lugar y en cualquier momento.
+            .row(titulo="Ofrecer experiencias memorables")
               .col-md-12.mb-4.mb-md-0
-                p la idea es que el cliente pueda interactuar con el organizador de eventos bajo una gama amplia de opciones que puedan ser útiles en cualquier lugar y en cualquier momento.           
-            .row(titulo="Brindar respuestas personalizadas:")
+                p Los empleados que laboren en la organización de eventos deben comprometerse a cumplir las expectativas de los clientes.
+            .row(titulo="Brindar respuestas personalizadas")
               .col-md-12.mb-4.mb-md-0
-                p se requiere en este punto una asesoría personalizada de empleados que tengan el suficiente conocimiento para poder brindar la respuesta correcta.          
-            .row(titulo="Automatizar algunos de los procesos y las interacciones:")
+                p Se requiere en este punto una asesoría personalizada de empleados que tengan el suficiente conocimiento para poder brindar la respuesta correcta.
+            .row(titulo="Automatizar algunos de los procesos y las interacciones")
               .col-md-12.mb-4.mb-md-0
-                p hacer de la tecnología el mejor aliado en cuanto a softwares que disminuyan o mejoren los procesos o equipos que contribuyan a que la interacción con el usuario sea mucho más simple y cómoda.
+                p Hacer de la tecnología el mejor aliado en cuanto a softwares que disminuyan o mejoren los procesos o equipos que contribuyan a que la interacción con el usuario sea mucho más simple y cómoda.
     separador
 
     #t_1_1.titulo-segundo.color-acento-contenido
@@ -54,44 +54,45 @@
           .row.mb-2
             h5 Figura 1
           .row
-            span Características del servicio
+            span #[i Características del servicio]
         
-        .row.justify-content-around.align-items-center
-          .col-lg-5.col-xl-3.mb-4.mb-xl-4
-            .tarjeta.card
-              .tarjeta-slide__img.front(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-tarj1.png')})`}")
-              .tarjeta.back.color-acento-botones.justify-content-around.align-items-center
-                h4 Intangibilidad: 
-                p un servicio no se puede cuantificar, inventariar o verificar su estado con el fin de asegurar su calidad antes de ser brindado al cliente.
+      .row.justify-content-center
+        LineaTiempoD.color-secundario
+          .row(numero="1" titulo="Intangibilidad")
+            .col-lg-2
+              figure
+                img(src='@/assets/curso/temas/tema1/tema1-img21.svg', alt='Texto que describa la imagen').img_lineaTD
+            .col-lg-10  
+              p.mt-2 Un servicio no se puede cuantificar, inventariar o verificar su estado con el fin de asegurar su calidad antes de ser brindado al cliente.
+          
+          .row(numero="2" titulo="Heterogeneidad")
+            .col-lg-2
+              figure
+                img(src='@/assets/curso/temas/tema1/tema1-img22.svg', alt='Texto que describa la imagen').img_lineaTD
+            .col-lg-10  
+              p.mt-2 Todos son diferentes; casi nunca coinciden entre sí ya que generalmente son creados teniendo en cuenta las características de cada cliente. En un servicio no existe la fabricación en masa donde se genera la igualdad, por tanto, cada momento es totalmente diferente y con ello la percepción de un cliente también lo es.
 
-          .col-sm-5.col-xl-3.mb-4.mb-xl-4
-            .tarjeta.card
-              .tarjeta-slide__img.front(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-tarj2.png')})`}")
-              .tarjeta.back.color-acento-botones.justify-content-around.align-items-center
-                h5 Heterogeneidad: 
-                p todos son diferentes; casi nunca coinciden entre sí ya que generalmente son creados teniendo en cuenta las características de cada cliente. En un servicio no existe la fabricación en masa donde se genera la igualdad, por tanto, cada momento es totalmente diferente y con ello la percepción de un cliente también lo es.
+          .row(numero="3" titulo="Inseparabilidad")
+            .col-lg-2
+              figure
+                img(src='@/assets/curso/temas/tema1/tema1-img23.svg', alt='Texto que describa la imagen').img_lineaTD
+            .col-lg-10  
+              p.mt-2 Existe una estrecha relación entre el servicio y quien lo ofrece, por tanto la calidad percibida también dependerá de lo que el cliente reciba en cuanto atención y calidad de la experiencia obtenida.
 
-          .col-sm-5.col-xl-3.mb-3.mb-xl-4
-            .tarjeta.card
-              .tarjeta-slide__img.front(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-tarj3.png')})`}")
-              .tarjeta.back.color-acento-botones.justify-content-around.align-items-center
-                h4 Inseparabilidad: 
-                p existe una estrecha relación entre el servicio y quien lo ofrece, por tanto la calidad percibida también dependerá de lo que el cliente reciba en cuanto atención y calidad de la experiencia obtenida.
+          .row(numero="4" titulo="Carácter perecedero")
+            .col-lg-2
+              figure
+                img(src='@/assets/curso/temas/tema1/tema1-img24.svg', alt='Texto que describa la imagen').img_lineaTD
+            .col-lg-10  
+              p.mt-2 los servicios caducan cuando se entregan, por tanto, no se pueden almacenar para poder brindarlos posteriormente.
 
-          .col-sm-5.col-xl-3.mb-4.mb-xl-4
-            .tarjeta.card
-              .tarjeta-slide__img.front(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-tarj4.png')})`}")
-              .tarjeta.back.color-acento-botones.justify-content-around.align-items-center
-                h4 Carácter perecedero:
-                p los servicios caducan cuando se entregan, por tanto, no se pueden almacenar para poder brindarlos posteriormente.
-        
-        .tarjeta.tarjeta--gris.mt-2
+        .tarjeta.tarjeta--gris.mt-5
           p Referencia Nota. Tomada y adaptada de Alfonso Yanelys. (2019). Servicio: qué es, características, clasificación y tipos
 
     .row.justify-content-around.aling-items-center.mb-5.mt-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img3.svg')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img3.png')})`}"
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 Una empresa de organización de eventos beneficia de muchas formas cuando se encarga de ofrecer un buen servicio: la lealtad que se obtiene por parte de los clientes hace que estos prefieran a la compañía por encima de otras marcas, por tanto, entre mejor sea la experiencia brindada, más retorno de los clientes quienes se convertirán en embajadores de la marca, replicando sus servicios de boca en boca y bajo sus propias redes sociales.
@@ -100,7 +101,7 @@
       .row.justify-content-center
         .col-lg-5
           figure
-            img.mt-4(src='@/assets/curso/temas/tema1/tema1-img4.svg', alt='Texto que describa la imagen')
+            img.mt-4(src='@/assets/curso/temas/tema1/tema1-img4.png', alt='Texto que describa la imagen')
         .col-lg-7.justify-content-center.mt-5
           p.mt-3 Muchas investigaciones han demostrado que cuando una empresa ofrece un excelente servicio, puede tener repercusión en el aumento de sus ingresos, sin embargo, esto no se logra si no se pone en práctica el continuo mejoramiento de los servicios y productos, así como el aprendizaje de los errores del pasado para lograr generar mayor cantidad de ventas. Esto hará que la compañía se diferencie, gane mayor participación en su entorno y sobresalga entre la competencia. 
     
@@ -128,15 +129,15 @@
             img(src='@/assets/curso/temas/tema1/tema1-img6.svg', alt='Texto que describa la imagen').img-animacion3
 
         .tarjeta.color-acento-botones.p-3(x="36.5%" y="63%" numero="")
-          .h5.mb-2 Redes sociales: 
+          .h5.mb-2 Redes sociales
           p su mayor característica es la atención casi inmediata que puede recibir el cliente a través de plataformas como Instagram, Facebook o Twitter.
 
         .tarjeta.color-acento-botones.p-3(x="56.5%" y="5.5%" numero="")
-          .h5.mb-2 Chatbots: 
+          .h5.mb-2 Chatbots
           p son asistentes virtuales que usan inteligencia artificial para generar conversaciones automatizadas las 24 horas del día. Esta herramienta le permite a los clientes obtener una respuesta rápida frente a sus inquietudes o ser redireccionado a un representante de la marca enfocado al servicio cliente quien acompañe sus requerimientos.
 
         .tarjeta.color-acento-botones.p-3(x="75.5%" y="55.5%" numero="")
-          .h5.mb-2 Soporte de correo electrónico o vía web:
+          .h5.mb-2 Soporte de correo electrónico o vía web
           p los clientes usan este canal para realizar solicitudes más detalladas o reportar inconvenientes con el producto o servicio. No es una forma de comunicación instantánea, pero sí brinda un espacio correcto para que los usuarios manifiesten lo que necesitan de una forma amplia y clara.  
       .col-8        
         .row.justify-content-center.mt-2
@@ -170,18 +171,17 @@
       .row.justify-content-center
         .col-lg-5
           figure
-            img.mt-4(src='@/assets/curso/temas/tema1/tema1-img7.svg', alt='Texto que describa la imagen')
-        .col-lg-7.justify-content-center.mt-5
+            img.mt-2(src='@/assets/curso/temas/tema1/tema1-img7.png', alt='Texto que describa la imagen')
+        .col-lg-7.justify-content-center.mt-2
           p El ciclo del servicio hace referencia a los puntos de contacto a través de los cuales el cliente pasa, desde la interacción inicial hasta convertirse en un consumidor fiel de la marca (primer contacto, cierre de venta, servicio postventa). Le permiten a la organización conocer las debilidades y fortalezas percibidas por el cliente, a partir del contacto con la marca e identificar aquello que debe ser mejorado.
-          p.mt-2 Muñoz Benavides, G (2017) menciona que el ciclo básico para satisfacer necesidades se ve enriquecido con la inclusión de la filosofía de mejora continua, con la cual se identifica la percepción del cliente con respecto a los aspectos que deben reforzarse en cuanto a la calidad, y con ello tomar las medidas necesarias para fortalecerlos hasta lograr la satisfacción de los requerimientos, necesidades y expectativas del cliente.
+          p Muñoz Benavides, G (2017) menciona que el ciclo básico para satisfacer necesidades se ve enriquecido con la inclusión de la filosofía de mejora continua, con la cual se identifica la percepción del cliente con respecto a los aspectos que deben reforzarse en cuanto a la calidad, y con ello tomar las medidas necesarias para fortalecerlos hasta lograr la satisfacción de los requerimientos, necesidades y expectativas del cliente.
 
-    .tarjeta.mt-5
+    .tarjeta.mt-3
       .row.justify-content-center
         .col-lg-9.justify-content-center
-          .cajon.color-acento-botones.p-3
+          .cajon.color-acento-contenido.p-3
             p A este respecto, el ciclo debe incluir todas las fases que conforman la prestación de un servicio, desde su inicio hasta la final evaluación de los resultados que se obtienen al cumplir los requerimientos y expectativas de los clientes.
             p La gestión del ciclo del servicio debe omitir las suposiciones subjetivas y, por el contrario, centrarse en el consumidor, sus necesidades y el valor percibido en las diferentes etapas del servicio.
-        .col-lg-3.mt-2.imgCambio
     
     .row 
       p.mt-5 Los pasos a tener en cuenta en el ciclo de servicio son:
@@ -192,24 +192,24 @@
           img.mt-3(src='@/assets/curso/temas/tema1/tema1-img9.svg', alt='Texto que describa la imagen')        
       .col-lg-8.mt-4
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          .row(titulo="Identificar los momentos de verdad y los momentos críticos que se dan durante el ciclo:")
+          .row(titulo="Identificar los momentos de verdad y los momentos críticos que se dan durante el ciclo")
             .col-lg-2.col-xs-2
               figure
-                img(src='@/assets/curso/temas/tema1/tema1-img10.svg', alt='Texto que describa la imagen')          
+                img(src='@/assets/curso/temas/tema1/tema1-img10.svg', alt='Texto que describa la imagen').img-acordeontema1
             .col-md-10.mb-4.mb-md-0.col-xs-10
-              p los espacios donde se tiene contacto con el cliente y aquellos donde existen aspectos que puedan afectar negativamente la satisfacción o el humor del mismo.  
-          .row(titulo="Requerimientos:")
+              p Los espacios donde se tiene contacto con el cliente y aquellos donde existen aspectos que puedan afectar negativamente la satisfacción o el humor del mismo.  
+          .row(titulo="Requerimientos")
             .col-md-2
               figure
-                img(src='@/assets/curso/temas/tema1/tema1-img11.svg', alt='Texto que describa la imagen')  
+                img(src='@/assets/curso/temas/tema1/tema1-img11.svg', alt='Texto que describa la imagen').img-acordeontema1 
             .col-md-10.mb-4.mb-md-0
-              p en este punto se deben conocer las necesidades del cliente para poder mejorar el servicio ofrecido.
-          .row(titulo="Planes de acción:")
+              p En este punto se deben conocer las necesidades del cliente para poder mejorar el servicio ofrecido.
+          .row(titulo="Planes de acción")
             .col-md-2
               figure
-                img(src='@/assets/curso/temas/tema1/tema1-img12.svg', alt='Texto que describa la imagen')  
+                img(src='@/assets/curso/temas/tema1/tema1-img12.svg', alt='Texto que describa la imagen').img-acordeontema1
             .col-md-10.mb-4.mb-md-0
-              p son las estrategias que se plantean luego de conocer los requerimientos del cliente.
+              p Son las estrategias que se plantean luego de conocer los requerimientos del cliente.
     
     .row.justify-content-center
       .col-8.justify-content-center.mt-5
@@ -243,7 +243,7 @@
         .row.mb-2
           h5 Figura 2
         .row
-          span Claves de éxito, momentos de verdad
+          span #[i Claves de éxito, momentos de verdad]
 
     TabsC.color-primario
       .py-3.py-md-4(titulo="Buscar la recomendación de cliente")
@@ -266,7 +266,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema1/tema1-img16.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/tema1-img16.png', alt='Texto que describa la imagen')
           .col-md-6
             h4 Incluir requerimientos para mejorar la atención
             p Indica a los trabajadores qué recursos pueden emplear, es decir, si están autorizados para ofrecer un descuento o realizar otra acción cuando un momento de verdad es negativo.

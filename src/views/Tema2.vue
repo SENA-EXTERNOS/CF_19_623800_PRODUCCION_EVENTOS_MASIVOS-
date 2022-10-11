@@ -20,7 +20,7 @@
     
     .row.justify-content-around.align-items-center
       .col-10
-        .cajon.color-secundario.p-4.mt-5
+        .cajon.color-secundario2.p-4.mt-5
           p Se han realizado varios estudios sobre modelos de medición de la gestión de la calidad y otros modelos de medición de la calidad del servicio. El primero es responsable de la implantación de certificados de calidad como la norma ISO 9001, la eficiencia del modelo EFQM u otros análisis de gestión de la calidad. El segundo tiene como objetivo principal medir el nivel de calidad del servicio y determinar qué características del servicio prestado influyen en las percepciones y expectativas de los clientes que reciben el mismo servicio.
     
     separador
@@ -107,6 +107,7 @@
           .col-md-6
             figure
              img(src='@/assets/curso/temas/tema2/tema2-img8.svg', alt='Texto que describa la imagen')
+
     separador
 
     #t_2_2.titulo-segundo.color-acento-contenido
@@ -116,7 +117,7 @@
       .row.justify-content-center
         .col-lg-7.justify-content-center
           p La calidad es el resultado del esfuerzo conjunto de un grupo de personas orientadas hacia un fin común mediante la aplicación de sus virtudes, tanto técnicas como personales y administrativas, para lograr la producción de bienes o servicios. Estas dan el máximo de satisfacción de los consumidores al menor costo posible, aplicando las herramientas de control disponibles para este propósito. (Montejano, 2008, p.21).
-          .cajon.color-secundario.p-4
+          .cajon.color-secundario2.p-4
             p Existen muchos autores que han hablado sobre la calidad y sus características, sin embargo, todos coinciden en que el objetivo fundamental de la calidad recae en la satisfacción del cliente. Arellano Díaz, H (2017) menciona que “un cliente queda satisfecho si se le ofrece todo lo que él esperaba encontrar y más. Sin embargo, al estar determinada esta satisfacción por aspectos subjetivos como las expectativas y la percepción, la calidad no siempre se puede cuantificar o definir en términos objetivos, lo que hace necesario a las organizaciones el retroalimentarse en forma constante con la percepción de los clientes respecto a su servicio” (P. 77).
         .col-lg-5
           figure
@@ -160,12 +161,12 @@
         .bloque-texto-tema3__texto
           p.mb-0 Las normas ISO están orientadas a ordenar la gestión de una empresa en sus distintos ámbitos. Aunque su implementación es de carácter voluntario, han ganado gran reconocimiento y aceptación internacional debido a la importancia que ha tomado la figura y la opinión de los consumidores. El Organismo Internacional de Estandarización (ISO) es quien establece las normas ISO que están conformadas por estándares y guías relacionados con sistemas y herramientas específicas de gestión que pueden ser aplicadas en todo tipo de organización.
       
-      .col-lg-10.mt-4.md-6
+      .col-lg-10.mt-2.md-6
         figure
           img(src='@/assets/curso/temas/tema2/tema2-img12.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-around.align-items-center
-      .cajon.color-secundario.p-4.mt-5
+      .cajon.color-secundario2.p-4.mt-5
         p Las normas ISO sirven para asegurar el cumplimiento de los objetivos de calidad de los productos y servicios de una organización. Cuando una empresa está certificada con alguna de estas normas, afianza su posición en el mercado accediendo a nuevos espacios internacionales gracias a la confianza que genera en sus clientes, y logra mejorar la imagen de sus productos y servicios. A nivel interno, la certificación sirve para conocer los puntos de mejora, sostener la eficacia en los procesos, aumentar la motivación del personal y promover el uso eficiente de los recursos.
     
     .row.justify-content-around.align-items-center
@@ -179,7 +180,7 @@
                   p.mb-0 Existen muchas normas ISO que constantemente se actualizan y paralelamente aparecen otras nuevas. Para una mayor identificación y clasificación, se agrupan por familias o series con una nomenclatura específica, por ejemplo, la familia   (serie ISO 9000) son normas cuyo objetivo es homogeneizar los estándares de calidad de los productos o servicios de las organizaciones públicas y privadas, independientemente de su tamaño o actividad.
 
     .row
-      p.mt-5 A continuación, tomando como base la información de Unifikas (2021) en su artículo frente a las diferencias entre las normas ISO 9000, ISO 9001 e ISO 9004, se presentan los enfoques de dichas normas:
+      p A continuación, tomando como base la información de Unifikas (2021) en su artículo frente a las diferencias entre las normas ISO 9000, ISO 9001 e ISO 9004, se presentan los enfoques de dichas normas:
 
     TabsA.color-acento-botones
       .tarjeta.colorTab.p-4(titulo="ISO 9000")
@@ -213,80 +214,68 @@
     .row.justify-content-around.aling-items-center.mb-5.mt-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-img17.svg')})`}")
-        .bloque-texto-g__texto.p-4
-          p.mb-0 Adicional a las anteriores, encontramos también la Norma ISO 19011, la cual especifica las directrices para la auditoría de los sistemas de gestión. En el 2018 se crea la tercera versión de esta norma, enfocada en las auditorías internas y aquellas realizadas por las organizaciones a sus proveedores externos y a otras partes interesadas externas. Se busca aplicar este instrumento a un amplio rango de usuarios como lo son auditores, empresas que busquen implementar sistemas de gestión y aquellas organizaciones que necesitan realizar auditorías de sistemas de gestión por razones reglamentarias o contractuales. A pesar del enfoque anterior, este documento también puede ser aplicado para las empresas que desean desarrollar sus propios requisitos relacionados con auditorías.
+        .bloque-texto-g__texto.p-3
+          p.text-small Adicional a las anteriores, encontramos también la Norma ISO 19011, la cual especifica las directrices para la auditoría de los sistemas de gestión. En el 2018 se crea la tercera versión de esta norma, enfocada en las auditorías internas y aquellas realizadas por las organizaciones a sus proveedores externos y a otras partes interesadas externas. Se busca aplicar este instrumento a un amplio rango de usuarios como lo son auditores, empresas que busquen implementar sistemas de gestión y aquellas organizaciones que necesitan realizar auditorías de sistemas de gestión por razones reglamentarias o contractuales. A pesar del enfoque anterior, este documento también puede ser aplicado para las empresas que desean desarrollar sus propios requisitos relacionados con auditorías.
 
     .row
       h2 Normas Técnicas de Sostenibilidad NTS-TS
 
-    .tarjeta.color-adicional-1.mt-5
+    .tarjeta.color-adicional-1
       .row.justify-content-center
         .col-lg-7.justify-content-center.p-3
           p Las directrices para el desarrollo de unas correctas prácticas de gestión sostenible en el turismo se aplican a todos los destinos y también todos los subsectores que lo componen, incluso el turismo de masas. La sostenibilidad y el turismo están estrechamente relacionados ya que este sector impacta en todas las dimensiones básicas como lo son la económica, social y medioambiental, por ello, sus prácticas deben buscar un equilibrio adecuado entre esas tres dimensiones para asegurar la sostenibilidad en el largo plazo.
-          .cajon.color-secundario.p-3
+          .cajon.color-secundario2.p-3
             p Las normas técnicas de sostenibilidad son, por tanto, instrumentos creados por el ICONTEC (Instituto Colombiano de Normas Técnicas y Certificación) que impulsan el enfoque de desarrollo sostenible y de responsabilidad social en el sector turismo, en aspectos económicos, socioculturales, ambientales y de gestión. La certificación es aplicable a:
         .col-lg-5
           figure
             img.mt-5(src='@/assets/curso/temas/tema2/tema2-img18.svg', alt='Texto que describa la imagen')
 
-    .row.justify-content-around.align-items-center 
-      .col-10
-        .row.justify-content-around.align-items-center
-          .col-sm-5.col-xl-3.mb-4.mb-xl-4
-            .tarjeta.card2
-              .tarjeta-slide__img.front2(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-tarj1.svg')})`}")
-              .tarjeta.back2.color-acento-botones.justify-content-around.align-items-center
-                p Destinos turísticos – Área turística.<br>(NTS TS 001-01)
+    .row.justify-content-center
+      SlyderF(columnas="col-lg-6 col-xl-4")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/tema2-tarj1.svg' alt='AvatarTop')
+          .tarjeta.color-acento-botones.p-4
+            p.mt-5.text-center Destinos turísticos – Área turística.<br>(NTS TS 001-01)
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/tema2-tarj2.svg' alt='AvatarTop')
+          .tarjeta.color-acento-botones.p-4
+            p.mt-5.text-center Empresas de transporte terrestre turístico<br>(NTS TS 005)       
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/tema2-tarj3.svg' alt='AvatarTop')
+          .tarjeta.color-acento-botones.p-4
+            p.mt-5.text-center Agencias de viajes<br>(NTS TS 003)
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/tema2-tarj4.svg' alt='AvatarTop')
+          .tarjeta.color-acento-botones.p-4
+            p.mt-3.text-center Establecimientos de alojamiento y alojamiento (EAH). (NTS TS 002)<br>El cumplimiento de esta norma permite la obtención del Sello Ambiental Colombiano de conformidad con la reglamentación vigente.
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/tema2-tarj5.svg' alt='AvatarTop')
+          .tarjeta.color-acento-botones.p-4
+            p.mt-5.text-center Establecimientos gastronómicos<br>(NTS TS 004)
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/tema2-tarj6.svg' alt='AvatarTop')
+          .tarjeta.color-acento-botones.p-4
+            p.mt-5.text-center Organizadores profesionales y sedes para congresos, ferias y convenciones<br>(NTS TS 006-1 y NTS TS 006-2)
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/tema2-tarj7.svg' alt='AvatarTop')
+          .tarjeta.color-acento-botones.p-4
+            p.mt-5.text-center Empresas comercializadoras de esquemas de tiempo compartido y multipropiedad<br>(NTS TS 007)               
 
-          .col-sm-5.col-xl-3.mb-4.mb-xl-4
-            .tarjeta.card2
-              .tarjeta-slide__img.front2(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-tarj2.svg')})`}")
-              .tarjeta.back2.color-acento-botones.justify-content-around.align-items-center
-                p Empresas de transporte terrestre turístico<br>(NTS TS 005)
-
-          .col-sm-5.col-xl-3.mb-3.mb-xl-4
-            .tarjeta.card2
-              .tarjeta-slide__img.front2(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-tarj3.svg')})`}")
-              .tarjeta.back2.color-acento-botones.justify-content-around.align-items-center
-                p Agencias de viajes<br>(NTS TS 003)
-
-          .col-sm-5.col-xl-3.mb-4.mb-xl-4
-            .tarjeta.card2
-              .tarjeta-slide__img.front2(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-tarj4.svg')})`}")
-              .tarjeta.back2.color-acento-botones.justify-content-around.align-items-center
-                p.text-small Establecimientos de alojamiento y alojamiento (EAH). (NTS TS 002).<br>El cumplimiento de esta norma permite la obtención del Sello Ambiental Colombiano de conformidad con la reglamentación vigente.
-    
-    .row.justify-content-around.align-items-center 
-      .col-8
-        .row.justify-content-around.align-items-center
-          .col-sm-5.col-xl-3.mb-4.mb-xl-4
-            .tarjeta.card2
-              .tarjeta-slide__img.front2(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-tarj5.svg')})`}")
-              .tarjeta.back2.color-acento-botones.justify-content-around.align-items-center
-                p Establecimientos gastronómicos<br>(NTS TS 004)
-
-          .col-sm-5.col-xl-3.mb-4.mb-xl-4
-            .tarjeta.card2
-              .tarjeta-slide__img.front2(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-tarj6.svg')})`}")
-              .tarjeta.back2.color-acento-botones.justify-content-around.align-items-center
-                p Organizadores profesionales y sedes para congresos, ferias y convenciones<br>(NTS TS 006-1 y NTS TS 006-2)
-
-          .col-sm-5.col-xl-3.mb-4.mb-xl-4
-            .tarjeta.card2
-              .tarjeta-slide__img.front2(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-tarj7.svg')})`}")
-              .tarjeta.back2.color-acento-botones.justify-content-around.align-items-center
-                p Empresas comercializadoras de esquemas de tiempo compartido y multipropiedad<br>(NTS TS 007) 
-
-    .row.justify-content-around.align-items-center
-      p.mt-5 La organización de eventos se considera parte del sector turístico ya que su desarrollo aporta al crecimiento de un destino, mediante la movilización de turistas y visitantes, sin perder de vista que muchos eventos se constituyen en sí mismos como un atractivo turístico, como es el caso del Carnaval de barranquilla, la feria de las flores, entre otros ejemplos a nivel nacional.
+    .row.justify-content-around.align-items-center.mt-5
+      p La organización de eventos se considera parte del sector turístico ya que su desarrollo aporta al crecimiento de un destino, mediante la movilización de turistas y visitantes, sin perder de vista que muchos eventos se constituyen en sí mismos como un atractivo turístico, como es el caso del Carnaval de barranquilla, la feria de las flores, entre otros ejemplos a nivel nacional.
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption VIDEO
 
     .row.justify-content-around.align-items-center
       .col-10
-        .cajon.color-acento-botones.p-4.mt-5
+        .cajon.cajon.color-secundario3.p-4.mt-5
           p Para un estudio completo del tema, recuerde explorar todos los recursos que se encuentran disponibles en este componente formativo, y que encuentra en el menú principal, tales como material complementario, actividad didáctica, glosario, entre otros. 
+
+                                 
+
+
+
 
 </template>
 

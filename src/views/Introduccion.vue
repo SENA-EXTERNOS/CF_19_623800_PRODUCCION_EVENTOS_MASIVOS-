@@ -13,7 +13,7 @@
       .row.justify-content-center
         .col-lg-5
           figure
-            img(src='@/assets/curso/temas/introduccion-img1.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/introduccion-img1.png', alt='Texto que describa la imagen')
         .col-lg-7.justify-content-center.mt-3
           p Bienvenido Aprendiz. En este componente formativo se desarrollan las habilidades para la prestación del servicio al cliente y las estrategias para medirlo cumpliendo con los requerimientos del usuario. En la organización de eventos todas las personas brindan o reciben un servicio, sin embargo, ¿cuál es su definición, para qué sirve o cómo prestarlo correctamente?
           p Lo invitamos a explorar el siguiente vídeo como introducción a los temas a abordar, no sin antes desearle éxitos en el desarrollo de esta experiencia de aprendizaje.
