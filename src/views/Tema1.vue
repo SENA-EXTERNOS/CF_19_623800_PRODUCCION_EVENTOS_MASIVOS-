@@ -39,14 +39,14 @@
                 p Se requiere en este punto una asesoría personalizada de empleados que tengan el suficiente conocimiento para poder brindar la respuesta correcta.
             .row(titulo="Automatizar algunos de los procesos y las interacciones")
               .col-md-12.mb-4.mb-md-0
-                p Hacer de la tecnología el mejor aliado en cuanto a softwares que disminuyan o mejoren los procesos o equipos que contribuyan a que la interacción con el usuario sea mucho más simple y cómoda.
+                p Hacer de la tecnología el mejor aliado en cuanto a #[i software] que disminuyan o mejoren los procesos o equipos que contribuyan a que la interacción con el usuario sea mucho más simple y cómoda.
     separador
 
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 El servicio
 
     .row
-      p Un servicio puede ser definido como una actividad que es llevada a cabo por una organización, con el fin de satisfacer un requerimiento o necesidad del cliente. Sus características básicas son: 
+      p #[i Un servicio puede ser definido como una actividad que es llevada a cabo por una organización, con el fin de satisfacer un requerimiento o necesidad del cliente. Sus características básicas son:]
 
     .row.justify-content-around.align-items-center 
       .col-11
@@ -87,7 +87,7 @@
               p.mt-2 los servicios caducan cuando se entregan, por tanto, no se pueden almacenar para poder brindarlos posteriormente.
 
         .tarjeta.tarjeta--gris.mt-5
-          p Referencia Nota. Tomada y adaptada de Alfonso Yanelys. (2019). Servicio: qué es, características, clasificación y tipos
+          p Nota. Tomada y adaptada de Alfonso Yanelys. (2019). Servicio: qué es, características, clasificación y tipos. Recuperado de https://www.gestiopolis.com/servicio-que-es-caracteristicas-clasificacion-y-tipos/
 
     .row.justify-content-around.aling-items-center.mb-5.mt-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
@@ -126,18 +126,18 @@
       ImagenInfografica.color-acento-botones
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema1/tema1-img6.svg', alt='Texto que describa la imagen').img-animacion3
+            img(src='@/assets/curso/temas/tema1/tema1-img6.png', alt='Texto que describa la imagen').img-animacion3
 
         .tarjeta.color-acento-botones.p-3(x="36.5%" y="63%" numero="")
           .h5.mb-2 Redes sociales
           p su mayor característica es la atención casi inmediata que puede recibir el cliente a través de plataformas como Instagram, Facebook o Twitter.
 
         .tarjeta.color-acento-botones.p-3(x="56.5%" y="5.5%" numero="")
-          .h5.mb-2 Chatbots
+          .h5.mb-2 #[i Chatbots]
           p son asistentes virtuales que usan inteligencia artificial para generar conversaciones automatizadas las 24 horas del día. Esta herramienta le permite a los clientes obtener una respuesta rápida frente a sus inquietudes o ser redireccionado a un representante de la marca enfocado al servicio cliente quien acompañe sus requerimientos.
 
         .tarjeta.color-acento-botones.p-3(x="75.5%" y="55.5%" numero="")
-          .h5.mb-2 Soporte de correo electrónico o vía web
+          .h5.mb-2 Soporte de correo electrónico o vía #[i web]
           p los clientes usan este canal para realizar solicitudes más detalladas o reportar inconvenientes con el producto o servicio. No es una forma de comunicación instantánea, pero sí brinda un espacio correcto para que los usuarios manifiesten lo que necesitan de una forma amplia y clara.  
       .col-8        
         .row.justify-content-center.mt-2
@@ -148,7 +148,7 @@
                 li 
                   .lista-ol--cuadro__vineta
                     span 1
-                  | Presentarle un nuevo producto o servicio
+                  | Presentarle un nuevo producto o servicio.
                 li 
                   .lista-ol--cuadro__vineta
                     span 2
@@ -214,7 +214,7 @@
     .row.justify-content-center
       .col-8.justify-content-center.mt-5
         .cajon.color-secundario.p-4
-          p Dentro de este mismo instrumento cada nivel de servicio se evalúa utilizando una escala distinta. La zona de tolerancia se encuentra entre las expectativas del usuario y el nivel adecuado de servicio y representa el rango de calidad que el consumidor considera aceptable.
+          p #[i Dentro de este mismo instrumento cada nivel de servicio se evalúa utilizando una escala distinta. La zona de tolerancia se encuentra entre las expectativas del usuario y el nivel adecuado de servicio y representa el rango de calidad que el consumidor considera aceptable.]
 
     separador
 
@@ -277,7 +277,7 @@
               img(src='@/assets/curso/temas/tema1/tema1-img17.svg', alt='Texto que describa la imagen')
           .col-md-6
             h4 Priorizar las áreas de servicio
-            p La empresa debe ofrecer capacitación sobre todo a los empleados de las áreas que tienen mayor contacto con el cliente como área de ventas, recepción, administración de redes sociales, telemarketing y sitio web, y darles a conocer los procedimientos que transforman un momento malo en uno satisfactorio, para proteger la buena reputación del negocio.
+            p La empresa debe ofrecer capacitación sobre todo a los empleados de las áreas que tienen mayor contacto con el cliente como área de ventas, recepción, administración de redes sociales, #[i telemarketing] y sitio #[i web], y darles a conocer los procedimientos que transforman un momento malo en uno satisfactorio, para proteger la buena reputación del negocio.
       .py-3.py-md-4(titulo="Medir el nivel de satisfacción")
         .row
           .col-md-6.mb-4.mb-md-0

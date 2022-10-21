@@ -33,11 +33,11 @@
       p.mt-2 Un cliente insatisfecho rara vez dará una segunda oportunidad a la organización, por ello, es preciso aprender a gestionar la experiencia del cliente como medida para retenerlo y generar una recompra.
       p.mt-2 A continuación, se brindan diferentes herramientas para medir el servicio y la satisfacción de los usuarios:
 
-    .tarjeta.bg5.p-4.slider
-      SlyderA(tipo="b").slider
+    .slyderB_bg_01.px-5.py-3.mb-5
+      SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0
-            h2 SERVQUAL:
+          .col-md-6.mb-4.mb-md-0.py-3
+            h3.mt-2 SERVQUAL:
             p es un método que mide la calidad del servicio mediante una encuesta que tiene en cuenta estos 5 elementos:
             .col-sm.mb-5.mb-sm-0
               ol.lista-ul--color
@@ -177,7 +177,7 @@
             .col-lg-9
               .bloque-texto-tema4
                 .bloque-texto-tema4__texto
-                  p.mb-0 Existen muchas normas ISO que constantemente se actualizan y paralelamente aparecen otras nuevas. Para una mayor identificación y clasificación, se agrupan por familias o series con una nomenclatura específica, por ejemplo, la familia   (serie ISO 9000) son normas cuyo objetivo es homogeneizar los estándares de calidad de los productos o servicios de las organizaciones públicas y privadas, independientemente de su tamaño o actividad.
+                  p.mb-0 Existen muchas normas ISO que constantemente se actualizan y paralelamente aparecen otras nuevas. Para una mayor identificación y clasificación, se agrupan por familias o series con una nomenclatura específica, por ejemplo, la familia Gestión de Calidad (serie ISO 9000) son normas cuyo objetivo es homogeneizar los estándares de calidad de los productos o servicios de las organizaciones públicas y privadas, independientemente de su tamaño o actividad.
 
     .row
       p A continuación, tomando como base la información de Unifikas (2021) en su artículo frente a las diferencias entre las normas ISO 9000, ISO 9001 e ISO 9004, se presentan los enfoques de dichas normas:
