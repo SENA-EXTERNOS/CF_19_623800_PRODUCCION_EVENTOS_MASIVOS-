@@ -152,7 +152,7 @@
                 Item Unificar productos para facilitar su comercialización.
               li 
                 i.fas.fa-check
-                Item CProteger intereses del consumidor.
+                Item Proteger intereses del consumidor.
 
     .row.justify-content-center
       h2 Normas ISO 9000, 9001, 19011.
