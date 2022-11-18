@@ -610,9 +610,69 @@
   background-repeat: no-repeat
   border-radius: 15px  
 
+.colorMV
+  background-color: #d7ccfb
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h2 
+    margin: 0;
+    margin-left: -40px
+  p 
+    margin: auto
+    margin-left: -40px
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 180px
+    width: calc( 86% - 60px)
+    height: 100%
+    background-color: #eeeffb
+
+.crd--first
+  &::before 
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px
+.crd--last, .crd--last2
+  &::before 
+    border-bottom-left-radius: 30px
+    border-bottom-right-radius: 30px
+
+.avatar
+  width: 100%
+  position: relative
+  top: 0rem
+  bottom: 0
+  right: 0rem
+  z-index: 0
+  
+  @media (max-width: 500px)
+    width: 30%
+    position: absolute
+    top: 6rem
+    bottom: 0
+    right: 0rem
+    z-index: 1
+    left: 64%    
+
+  @media (max-width: 500px)
+    padding-right: 2rem
+    &::before  
+      position: absolute 
+      content: ''
+      top: 0
+      right: 24px
+      width: calc( 105% - 60px)
+      height: 100%
+      background-color: #eeeffb
+
+
 .imagenRedonda
   width: 93%
-
 @media (min-width:1200px) and (max-width:1400px)  
   .imagenRedonda
     margin-left: 45%
@@ -621,6 +681,18 @@
 
 .zIndexCol
   z-index: 1
+
+.decorativaT1
+  width: 8%;
+  position: absolute;
+  top: 365.3rem;
+  margin-left: 83%;
+@media ( max-width: 500px )
+  .decorativaT1
+    width: 15%;
+    position: absolute;
+    top: 638rem;
+    margin-left: 74%;    
 
 @keyframes float1
   0%

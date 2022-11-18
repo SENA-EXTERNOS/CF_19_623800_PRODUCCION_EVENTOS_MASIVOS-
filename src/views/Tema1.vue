@@ -228,7 +228,45 @@
     
     .row.mt-5
       p Ejemplo de un momento de verdad en un evento:
-    
+
+    .row.justify-content-center.colorMV
+      figure
+        img(src='@/assets/curso/temas/tema1/t1-27.png', alt='Texto que describa la imagen').decorativaT1
+      .col-lg-6.mt-2
+        figure
+          img(src='@/assets/curso/temas/tema1/t1-26.png', alt='Texto que describa la imagen')
+      .col-lg-6.mt-2
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span 1
+            | Existe un pre registro o registro previo a la llegada del evento ? Que facilite el ingreso?
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            | Es necesario hacer fila?
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            | La fila de ingreso es rápida?
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            | El personal es atento y amable?    
+          li 
+            .lista-ol--cuadro__vineta
+              span 5
+            | El software o sistema funcionó sin inconvenientes? 
+          li 
+            .lista-ol--cuadro__vineta
+              span 6
+            | La información entregada es clara y oportuna? 
+          li 
+            .lista-ol--cuadro__vineta
+              span 7
+            | El lugar está limpio? 
+    hr.mt-0.mb-0                                       
+
     .row.justify-content-around.align-items-right.mt-5
       .col-lg-3.zIndexCol.col-xs-10
         figure.imagenRedonda
@@ -239,6 +277,7 @@
             .col-lg-10
               p El ingreso de los asistentes es decisivo, pues genera una percepción de fluidez o de caos en las personas. Desde que el cliente busca la información para asistir al evento, el trato de los empleados debe mostrar atención y cordialidad. La actitud con que se reciba o se registre al usuario durante el evento, marcará su experiencia y con ello la posibilidad de regresar o no a un encuentro de la marca. 
               p Veamos cuáles son las claves de éxito que el organizador de eventos, o cualquier empresa de servicios debe tener en cuenta con respecto a los momentos de verdad.     
+      
       .titulo-sexto.color-acento-contenido.mt-5
         .row.mb-2
           h5 Figura 2
