@@ -2,15 +2,15 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-sexto.color-acento-contenido.mb-5
+    //.titulo-sexto.color-acento-contenido.mb-5
       .row.mb-2
         h5 Producción de eventos masivos
       .row
         span Síntesis: Estrategias de evaluación de satisfacción del cliente
     
-    img(src="@/assets/curso/temas/sintesis-img1.svg", alt="alt").imagen-sintesis-1
+    // img(src="@/assets/curso/temas/sintesis-img1.svg", alt="alt").imagen-sintesis-1
 
-    p Lo invitamos a consultar la siguiente síntesis de los temas abordados.
+    p.mb-5 Lo invitamos a consultar la siguiente síntesis de los temas abordados. 
     
     .row.justify-content-center
       .col-lg-10.mb-5

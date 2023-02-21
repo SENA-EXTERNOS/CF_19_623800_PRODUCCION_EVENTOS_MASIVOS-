@@ -11,19 +11,19 @@
       .row.justify-content-center
         .col-lg-7
           p El servicio al cliente consiste en ofrecer toda la asesoría posible al cliente en el antes, durante y después de la compra, con el fin de cumplir con su satisfacción a través de la respuesta a sus solicitudes, preguntas y consultas frente a la organización del evento. Cada interacción del servicio al cliente es una oportunidad para que la organización crezca, ya que cuando se brinda de manera excelente, se convierte en un diferenciador competitivo que impulsa la fidelidad y el reconocimiento de la marca.
-          .cajon.color-secundario.p-2
-            p El servicio al cliente puede expresarse a través de elementos tangibles, como las comodidades y el ambiente que proporciona un establecimiento, la accesibilidad, la amabilidad de los vendedores, entre otros; y también con elementos intangibles como cuando se habla de una página web o una app móvil, donde se califica su buen funcionamiento, los canales de comunicación, los plazos de entrega y las políticas de devolución, etc.
+          .cajon.color-secundario.p-4
+            p.mb-0 El servicio al cliente puede expresarse a través de elementos tangibles, como las comodidades y el ambiente que proporciona un establecimiento, la accesibilidad, la amabilidad de los vendedores, entre otros; y también con elementos intangibles como cuando se habla de una página web o una app móvil, donde se califica su buen funcionamiento, los canales de comunicación, los plazos de entrega y las políticas de devolución, etc.
         .col-lg-5
           figure
             img.mt-3(src='@/assets/curso/temas/tema1/tema1-img1.png', alt='Texto que describa la imagen').img-animacion1
       
       .row.mt-5
-        p Así pues, el servicio al cliente es importante desde diferentes perspectivas y teniendo en cuenta los siguientes parámetros:
+        p El servicio al cliente es importante desde diferentes perspectivas y teniendo en cuenta los siguientes parámetros:
       .row
         .col-lg-5
           figure
             img.mt-3(src='@/assets/curso/temas/tema1/tema1-img2.svg', alt='Texto que describa la imagen')        
-        .col-lg-7  
+        .col-lg-7.mb-5  
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Conectar todos los puntos de contacto con el cliente")
               .col-md-12.mb-4.mb-md-0
@@ -40,64 +40,55 @@
             .row(titulo="Automatizar algunos de los procesos y las interacciones")
               .col-md-12.mb-4.mb-md-0
                 p Hacer de la tecnología el mejor aliado en cuanto a #[i software] que disminuyan o mejoren los procesos o equipos que contribuyan a que la interacción con el usuario sea mucho más simple y cómoda.
-    separador
+    
 
-    #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1 El servicio
+    #t_1_1
+      h3 El servicio
 
     .row
-      p #[i Un servicio puede ser definido como una actividad que es llevada a cabo por una organización, con el fin de satisfacer un requerimiento o necesidad del cliente. Sus características básicas son:]
+      p Un servicio puede ser definido como una actividad que es llevada a cabo por una organización, con el fin de satisfacer un requerimiento o necesidad del cliente. Sus características básicas son: 
 
-    .row.justify-content-around.align-items-center 
-      .col-11
-        .titulo-sexto.color-acento-contenido.mb-5
-          .row.mb-2
-            h5 Figura 1
-          .row
-            span #[i Características del servicio]
-        
+    .row.justify-content-around.align-items-center         
       .row.justify-content-center
         LineaTiempoD.color-secundario
           .row(numero="1" titulo="Intangibilidad")
             .col-lg-2
               figure
-                img(src='@/assets/curso/temas/tema1/tema1-img21.svg', alt='Texto que describa la imagen').img_lineaTD
+                img.px-md-2(src='@/assets/curso/temas/tema1/tema1-img21.svg', alt='Texto que describa la imagen').img_lineaTD
             .col-lg-10  
               p.mt-2 Un servicio no se puede cuantificar, inventariar o verificar su estado con el fin de asegurar su calidad antes de ser brindado al cliente.
           
           .row(numero="2" titulo="Heterogeneidad")
             .col-lg-2
               figure
-                img(src='@/assets/curso/temas/tema1/tema1-img22.svg', alt='Texto que describa la imagen').img_lineaTD
+                img.px-md-2(src='@/assets/curso/temas/tema1/tema1-img22.svg', alt='Texto que describa la imagen').img_lineaTD
             .col-lg-10  
               p.mt-2 Todos son diferentes; casi nunca coinciden entre sí ya que generalmente son creados teniendo en cuenta las características de cada cliente. En un servicio no existe la fabricación en masa donde se genera la igualdad, por tanto, cada momento es totalmente diferente y con ello la percepción de un cliente también lo es.
 
           .row(numero="3" titulo="Inseparabilidad")
             .col-lg-2
               figure
-                img(src='@/assets/curso/temas/tema1/tema1-img23.svg', alt='Texto que describa la imagen').img_lineaTD
+                img.px-md-2(src='@/assets/curso/temas/tema1/tema1-img23.svg', alt='Texto que describa la imagen').img_lineaTD
             .col-lg-10  
-              p.mt-2 Existe una estrecha relación entre el servicio y quien lo ofrece, por tanto la calidad percibida también dependerá de lo que el cliente reciba en cuanto atención y calidad de la experiencia obtenida.
+              p.mt-2 Existe una estrecha relación entre el servicio y quien lo ofrece, por tanto, la calidad percibida también dependerá de lo que el cliente reciba en cuanto atención y calidad de la experiencia obtenida.
 
           .row(numero="4" titulo="Carácter perecedero")
             .col-lg-2
               figure
-                img(src='@/assets/curso/temas/tema1/tema1-img24.svg', alt='Texto que describa la imagen').img_lineaTD
+                img.px-md-2(src='@/assets/curso/temas/tema1/tema1-img24.svg', alt='Texto que describa la imagen').img_lineaTD
             .col-lg-10  
-              p.mt-2 los servicios caducan cuando se entregan, por tanto, no se pueden almacenar para poder brindarlos posteriormente.
+              p.mt-2 Los servicios caducan cuando se entregan, por tanto, no se pueden almacenar para poder brindarlos posteriormente.
 
-        .tarjeta.tarjeta--gris.mt-5
-          p Nota. Tomada y adaptada de Alfonso Yanelys. (2019). Servicio: qué es, características, clasificación y tipos. Recuperado de https://www.gestiopolis.com/servicio-que-es-caracteristicas-clasificacion-y-tipos/
-
+        
     .row.justify-content-around.aling-items-center.mb-5.mt-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img3.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 Una empresa de organización de eventos beneficia de muchas formas cuando se encarga de ofrecer un buen servicio: la lealtad que se obtiene por parte de los clientes hace que estos prefieran a la compañía por encima de otras marcas, por tanto, entre mejor sea la experiencia brindada, más retorno de los clientes quienes se convertirán en embajadores de la marca, replicando sus servicios de boca en boca y bajo sus propias redes sociales.
+          p.mb-0 Una empresa de organización de eventos beneficia de muchas formas cuando se encarga de ofrecer un buen servicio, la lealtad que se obtiene por parte de los clientes hace que estos prefieran a la compañía por encima de otras marcas, por tanto, entre mejor sea la experiencia brindada, más retorno de los clientes, quienes se convertirán en embajadores de la marca, replicando sus servicios de boca en boca, con sus propias redes sociales, etc.
 
-    .tarjeta.color-adicional-1.mt-5
+    .tarjeta.color-adicional-1.mt-5.mb-5
       .row.justify-content-center
         .col-lg-5
           figure
@@ -105,23 +96,22 @@
         .col-lg-7.justify-content-center.mt-5
           p.mt-3 Muchas investigaciones han demostrado que cuando una empresa ofrece un excelente servicio, puede tener repercusión en el aumento de sus ingresos, sin embargo, esto no se logra si no se pone en práctica el continuo mejoramiento de los servicios y productos, así como el aprendizaje de los errores del pasado para lograr generar mayor cantidad de ventas. Esto hará que la compañía se diferencie, gane mayor participación en su entorno y sobresalga entre la competencia. 
     
-    separador
+    
 
-    #t_1_2.titulo-segundo.color-acento-contenido
-      h2 1.2 Canales del servicio
+    #t_1_2
+      h3 Canales del servicio
 
     .row
       .col-lg-7.mb-5.mb-lg-0
         .bloque-texto-tema1
           .bloque-texto-tema1__texto
-            p.mb-0 Con los avances en la tecnología, los clientes y las empresas tienen mayor posibilidad de interactuar, estar conectados entre sí y conocer los requerimientos para la organización de un excelente evento. En la comunicación actual es necesario contar con diferentes tipos de canales que den soporte a las preguntas, comentarios y sugerencias de los clientes, antes, durante y después del evento. Los procesos digitalizados facilitan aprender sobre el producto o servicio a ofrecer y de paso generar relaciones más cercanas.
+            p Con los avances en la tecnología, los clientes y las empresas tienen mayor posibilidad de interactuar, estar conectados entre sí y conocer los requerimientos para la organización de un excelente evento. En la comunicación actual es necesario contar con diferentes tipos de canales que den soporte a las preguntas, comentarios y sugerencias de los clientes, antes, durante y después del evento. Los procesos digitalizados facilitan aprender sobre el producto o servicio a ofrecer y de paso generar relaciones más cercanas.
+            p Veamos a continuación, otros tipos de canales que son usados para soportar las preguntas y/o sugerencias de los clientes:
       .col-lg-5.mb-5.mb-lg-0
         figure
           img.mt-4(src='@/assets/curso/temas/tema1/tema1-img5.svg', alt='Texto que describa la imagen').img-animacion2
     
-    .row
-      p Adicional a la presencialidad, se usan canales como:
-
+      
     .row.justify-content-around.align-items-center 
       ImagenInfografica.color-acento-botones
         template(v-slot:imagen)
@@ -130,19 +120,19 @@
 
         .tarjeta.color-acento-botones.p-3(x="36.5%" y="63%" numero="")
           .h5.mb-2 Redes sociales
-          p su mayor característica es la atención casi inmediata que puede recibir el cliente a través de plataformas como Instagram, Facebook o Twitter.
+          p Su mayor característica es la atención casi inmediata que puede recibir el cliente a través de plataformas como Instagram, Facebook o Twitter.
 
         .tarjeta.color-acento-botones.p-3(x="56.5%" y="5.5%" numero="")
           .h5.mb-2 #[i Chatbots]
-          p son asistentes virtuales que usan inteligencia artificial para generar conversaciones automatizadas las 24 horas del día. Esta herramienta le permite a los clientes obtener una respuesta rápida frente a sus inquietudes o ser redireccionado a un representante de la marca enfocado al servicio cliente quien acompañe sus requerimientos.
+          p Son asistentes virtuales que usan con inteligencia artificial para generar conversaciones automatizadas las 24 horas del día. Esta herramienta le permite al cliente obtener una respuesta rápida frente a sus inquietudes o ser redireccionado a un representante de la empresa enfocado al servicio cliente quien acompañe sus requerimientos.
 
         .tarjeta.color-acento-botones.p-3(x="75.5%" y="55.5%" numero="")
           .h5.mb-2 Soporte de correo electrónico o vía #[i web]
-          p los clientes usan este canal para realizar solicitudes más detalladas o reportar inconvenientes con el producto o servicio. No es una forma de comunicación instantánea, pero sí brinda un espacio correcto para que los usuarios manifiesten lo que necesitan de una forma amplia y clara.  
+          p Los clientes usan este canal para realizar solicitudes más detalladas o reportar inconvenientes con el producto o servicio. No es una forma de comunicación instantánea, pero sí brinda un espacio correcto para que los usuarios manifiesten lo que necesitan de una forma amplia y clara. 
       .col-8        
-        .row.justify-content-center.mt-2
+        .row.justify-content-center.mt-2.mb-5
           .cajon.color-secundario.p-4
-            p Estos canales facilitan la comunicación con el cliente y además permiten:
+            p Estos canales, además de facilitar la comunicación con el cliente, también permiten: 
             .col-sm.mb-5.mb-sm-0
               ol.lista-ol--cuadro
                 li 
@@ -162,10 +152,10 @@
                     span 4
                   | Compartir información, videos, audios que puedan ser de valor para el cliente y que lo puedan acercar a la marca.
 
-    separador
+    
 
-    #t_1_3.titulo-segundo.color-acento-contenido
-      h2.mt-3 1.3 Ciclo de servicio
+    #t_1_3
+      h3 Ciclo de servicio
 
     .tarjeta
       .row.justify-content-center
@@ -174,14 +164,14 @@
             img.mt-2(src='@/assets/curso/temas/tema1/tema1-img7.png', alt='Texto que describa la imagen')
         .col-lg-7.justify-content-center.mt-2
           p El ciclo del servicio hace referencia a los puntos de contacto a través de los cuales el cliente pasa, desde la interacción inicial hasta convertirse en un consumidor fiel de la marca (primer contacto, cierre de venta, servicio postventa). Le permiten a la organización conocer las debilidades y fortalezas percibidas por el cliente, a partir del contacto con la marca e identificar aquello que debe ser mejorado.
-          p Muñoz Benavides, G (2017) menciona que el ciclo básico para satisfacer necesidades se ve enriquecido con la inclusión de la filosofía de mejora continua, con la cual se identifica la percepción del cliente con respecto a los aspectos que deben reforzarse en cuanto a la calidad, y con ello tomar las medidas necesarias para fortalecerlos hasta lograr la satisfacción de los requerimientos, necesidades y expectativas del cliente.
+          p Muñoz Benavides, G (2017) menciona que el ciclo básico para satisfacer necesidades se ve enriquecido con la inclusión de la filosofía de #[b mejora continua], con la cual se identifica la percepción del cliente con respecto a los aspectos que deben reforzarse en cuanto a la calidad, y con ello tomar las medidas necesarias para fortalecerlos hasta lograr la satisfacción de los requerimientos, necesidades y expectativas del cliente.
 
     .tarjeta.mt-3
       .row.justify-content-center
         .col-lg-9.justify-content-center
           .cajon.color-acento-contenido.p-3
-            p A este respecto, el ciclo debe incluir todas las fases que conforman la prestación de un servicio, desde su inicio hasta la final evaluación de los resultados que se obtienen al cumplir los requerimientos y expectativas de los clientes.
-            p La gestión del ciclo del servicio debe omitir las suposiciones subjetivas y, por el contrario, centrarse en el consumidor, sus necesidades y el valor percibido en las diferentes etapas del servicio.
+            p Este ciclo debe incluir todas las fases que conforman la prestación de un servicio, desde su inicio hasta la final, y evaluar los resultados que se obtienen al cumplir los requerimientos y expectativas de los clientes.
+            p.mb-0 La gestión del ciclo del servicio debe omitir las suposiciones subjetivas y por el contrario, centrarse en el consumidor, en sus necesidades y el valor percibido en las diferentes etapas del servicio.
     
     .row 
       p.mt-5 Los pasos a tener en cuenta en el ciclo de servicio son:
@@ -211,15 +201,15 @@
             .col-md-10.mb-4.mb-md-0
               p Son las estrategias que se plantean luego de conocer los requerimientos del cliente.
     
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-8.justify-content-center.mt-5
         .cajon.color-secundario.p-4
-          p #[i Dentro de este mismo instrumento cada nivel de servicio se evalúa utilizando una escala distinta. La zona de tolerancia se encuentra entre las expectativas del usuario y el nivel adecuado de servicio y representa el rango de calidad que el consumidor considera aceptable.]
+          p.mb-0 Dentro de este mismo instrumento cada nivel de servicio se evalúa utilizando una escala distinta. La zona de tolerancia se encuentra entre las expectativas del usuario y el nivel adecuado de servicio, por lo tanto, representa el rango de calidad que el consumidor considera aceptable.
 
-    separador
 
-    #t_1_4.titulo-segundo.color-acento-contenido
-      h2.mt-3 1.4 Momentos de verdad 
+
+    #t_1_4
+      h3 Momentos de verdad 
     
     .row
       .bloque-texto-b
@@ -229,7 +219,7 @@
     .row.mt-5
       p Ejemplo de un momento de verdad en un evento:
 
-    .row.justify-content-center.colorMV
+    .row.justify-content-center.align-items-center.colorMV
       figure
         img(src='@/assets/curso/temas/tema1/t1-27.png', alt='Texto que describa la imagen').decorativaT1
       .col-lg-6.mt-2
@@ -240,34 +230,36 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            | Existe un pre registro o registro previo a la llegada del evento ? Que facilite el ingreso?
+            | ¿Existe un pre registro o registro previo a la llegada del evento que facilite el ingreso?
           li 
             .lista-ol--cuadro__vineta
               span 2
-            | Es necesario hacer fila?
+            | ¿Es necesario hacer fila?
           li 
             .lista-ol--cuadro__vineta
               span 3
-            | La fila de ingreso es rápida?
+            | ¿La fila de ingreso es rápida?
           li 
             .lista-ol--cuadro__vineta
               span 4
-            | El personal es atento y amable?    
+            | ¿El personal es atento y amable?   
           li 
             .lista-ol--cuadro__vineta
               span 5
-            | El software o sistema funcionó sin inconvenientes? 
+            p.mb-0 ¿El 
+              em software 
+              | o sistema funcionó sin inconvenientes?
           li 
             .lista-ol--cuadro__vineta
               span 6
-            | La información entregada es clara y oportuna? 
+            | ¿La información entregada es clara y oportuna? 
           li 
             .lista-ol--cuadro__vineta
               span 7
-            | El lugar está limpio? 
+            | ¿El lugar está limpio?  
     hr.mt-0.mb-0                                       
 
-    .row.justify-content-around.align-items-right.mt-5
+    .row.justify-content-around.align-items-center.mt-5.mb-4 
       .col-lg-3.zIndexCol.col-xs-10
         figure.imagenRedonda
           img(src='@/assets/curso/temas/tema1/tema1-img13.png', alt='Texto que describa la imagen')
@@ -275,14 +267,9 @@
         .tarjeta.colorTab.p-2.md-5
           .row.justify-content-center
             .col-lg-10
-              p El ingreso de los asistentes es decisivo, pues genera una percepción de fluidez o de caos en las personas. Desde que el cliente busca la información para asistir al evento, el trato de los empleados debe mostrar atención y cordialidad. La actitud con que se reciba o se registre al usuario durante el evento, marcará su experiencia y con ello la posibilidad de regresar o no a un encuentro de la marca. 
-              p Veamos cuáles son las claves de éxito que el organizador de eventos, o cualquier empresa de servicios debe tener en cuenta con respecto a los momentos de verdad.     
+              p El ingreso de los asistentes es decisivo, genera una percepción de fluidez o de caos en las personas. Desde que el cliente busca la información para asistir al evento, el trato de los empleados debe mostrar atención y cordialidad. La actitud con que se reciba o se registre al usuario durante el evento, marcará su experiencia y con ello la posibilidad de regresar o no a un encuentro de la marca. 
+              p A continuación, las claves de éxito que el organizador de eventos o cualquier empresa de servicios debe tener en cuenta con respecto a los momentos de verdad:
       
-      .titulo-sexto.color-acento-contenido.mt-5
-        .row.mb-2
-          h5 Figura 2
-        .row
-          span #[i Claves de éxito, momentos de verdad]
 
     TabsC.color-primario
       .py-3.py-md-4(titulo="Buscar la recomendación de cliente")
@@ -325,10 +312,8 @@
           .col-md-6
             h4 Medir el nivel de satisfacción
             p La idea es comprobar si los clientes se fueron satisfechos con el servicio y para ello se pueden disponer ciertos canales como:
-            p.mt-2 buzón de quejas y sugerencias virtual, sesiones de grupo para discutir un producto o servicio, encuestas al personal, aplicar cliente oculto, para saber cómo se comportan los empleados y cómo se dirigen a los clientes y encuesta de satisfacción al cliente.
+            p.mt-2 Buzón de quejas y sugerencias virtual, sesiones de grupo para discutir un producto o servicio, encuestas al personal, aplicar cliente oculto, para saber cómo se comportan los empleados y cómo se dirigen a los clientes y encuesta de satisfacción al cliente.
 
-    .tarjeta.tarjeta--gris.my-2
-      p Nota. Tomada y adaptada de: Hubspot (2021). Momentos de verdad en el servicio al cliente: concepto, tipos y ejemplos.
 
     .row.justify-content-around.align-items-center 
       .col-10
@@ -340,7 +325,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Plantillas para poner al cliente en primer lugar
-                  p.text-small Para ampliar el tema por favor 
+                  p.mb-0 Para ampliar el tema te sugerimos descargar este anexo. 
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/plantillas-para-poner-al-cliente-en-primer-lugar.pdf')" target="_blank")
                     span Descargar

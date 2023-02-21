@@ -52,32 +52,7 @@ export default {
         numero: '1',
         titulo: 'Servicio al cliente',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'El servicio',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Canales del servicio',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Ciclo de servicio',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Momentos de verdad',
-            hash: 't_1_4',
-          },
-        ],
+        subMenu: [],
       },
 
       {
@@ -86,20 +61,7 @@ export default {
         numero: '2',
         titulo: 'Herramientas de verificación del servicio',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Herramientas de medición del servicio',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Normas de Calidad',
-            hash: 't_2_2',
-          },
-        ],
+        subMenu: [],
       },
     ],
     subMenu: [
@@ -244,74 +206,72 @@ export default {
   referencias: [
     {
       referencia:
-        'Artículo: Alfonso Yanelys. (2019). Servicio: qué es, características, clasificación y tipos. Recuperado de',
+        'Alfonso Yanelys. (2019). Servicio: qué es, características, clasificación y tipos. Recuperado de',
       link:
         'https://www.gestiopolis.com/servicio-que-es-caracteristicas-clasificacion-y-tipos/',
     },
     {
       referencia:
-        'Artículo: Arellano Díaz, H (2017). La calidad en el servicio como ventaja competitiva. Ciencias económicas y empresariales. 3, pp. 72-83',
+        'Arellano Díaz, H (2017). La calidad en el servicio como ventaja competitiva. Ciencias económicas y empresariales. 3, pp. 72-83',
       link:
         'http://148.202.167.116:8080/jspui/bitstream/123456789/3194/1/Calidad_servicio.pdf',
     },
     {
       referencia:
-        'Artículo: Cervantes, G; Muñoz, G y Alma Delia (2020). El trabajo en equipo y su efecto en la calidad del servicio a clientes. Revista Espacios. 41-14 p 27.',
+        'Cervantes, G; Muñoz, G y Alma Delia (2020). El trabajo en equipo y su efecto en la calidad del servicio a clientes. Revista Espacios. 41-14 p 27.',
       link: 'http://ww.revistaespacios.com/a20v41n14/a20v41n14p27.pdf',
     },
     {
       referencia:
-        'Artículo: Hubspot (2021). Momentos de verdad en el servicio al cliente: concepto, tipos y ejemplos.',
+        'Hubspot (2021). Momentos de verdad en el servicio al cliente: concepto, tipos y ejemplos.',
       link:
         'https://blog.hubspot.es/service/momentos-de-verdad-servicio-al-cliente',
     },
     {
-      referencia:
-        'Artículo: ICONTEC (sf). Certificación de Turismo Sostenible.',
+      referencia: 'ICONTEC (sf). Certificación de Turismo Sostenible.',
       link:
         'https://www.icontec.org/eval_conformidad/certificacion-de-turismo-sostenible/',
     },
     {
-      referencia:
-        'Artículo: ISO (2015). ¿Qué son las normas ISO y cuál es su finalidad?',
+      referencia: 'ISO (2015). ¿Qué son las normas ISO y cuál es su finalidad?',
       link:
         'https://www.isotools.org/2015/03/19/que-son-las-normas-iso-y-cual-es-su-finalidad/ ',
     },
     {
       referencia:
-        'Norma: ISO (2018). Norma Internacional ISO 19011: Directrices para la auditoría de los sistemas de gestión.',
+        'ISO (2018). Norma Internacional ISO 19011: Directrices para la auditoría de los sistemas de gestión.',
       link:
         'https://www.cecep.edu.co/documentos/calidad/norma-iso-19011-2018.pdf',
     },
     {
-      referencia: 'Artículo: Montejano (2008). Calidad en carne propia.',
+      referencia: 'Montejano (2008). Calidad en carne propia.',
       link:
         'https://www.researchgate.net/publication/237038725_Calidad_en_carne_propia',
     },
     {
       referencia:
-        'Artículo: Monsalve y Hernández (2015). Gestión de la calidad del servicio en la Hotelería como elemento clave en el desarrollo de destinos turísticos sostenibles: Caso Bucaramanga. Revista Escuela de Administración de Negocios.',
+        'Monsalve y Hernández (2015). Gestión de la calidad del servicio en la Hotelería como elemento clave en el desarrollo de destinos turísticos sostenibles: Caso Bucaramanga. Revista Escuela de Administración de Negocios.',
       link: '',
     },
     {
       referencia:
-        'Artículo: Muñoz Benavides, G (2017). Análisis de la calidad del servicio del hotel perla verde de la ciudad de esmeraldas. Tesis de grado. Pontificia Universidad Católica del Ecuador.',
+        'Muñoz Benavides, G (2017). Análisis de la calidad del servicio del hotel perla verde de la ciudad de esmeraldas. Tesis de grado. Pontificia Universidad Católica del Ecuador.',
       link:
         'https://repositorio.pucese.edu.ec/bitstream/123456789/1116/1/MU%c3%91OZ%20BENAVIDES%20GIRA.pdf',
     },
     {
-      referencia: 'Artículo: Oracle (sf). ¿Qué es el servicio al cliente?',
-      link: 'ttps://www.oracle.com/co/cx/service/what-is-customer-service/',
+      referencia: 'Oracle (sf). ¿Qué es el servicio al cliente? ',
+      link: 'https://www.oracle.com/co/cx/service/what-is-customer-service/',
     },
     {
       referencia:
-        'Artículo: Rojas Romero (2005). Glosario administración de empresas. recuperado de ',
+        'Rojas Romero (2005). Glosario administración de empresas. recuperado de ',
       link:
         'https://www.gestiopolis.com/glosario-de-administracion-de-empresas/#:~:text=Eficiencia%3A%20logro%20de%20los%20fines,u%20otras%20consecuencias%20no%20deseadas.',
     },
     {
       referencia:
-        'Artículo Unifikas (2021). ¿Cuáles son las diferencias entre las normas ISO 9000, ISO 9001 e ISO 9004?',
+        'Unifikas (2021). ¿Cuáles son las diferencias entre las normas ISO 9000, ISO 9001 e ISO 9004?',
       link:
         'https://www.unifikas.com/es/noticias/cuales-son-las-diferencias-entre-las-normas-iso-9000-iso-9001-e-iso-9004#:~:text=Estas%20son%20las%20diferencias%20entre,9004%20de%20la%20mejora%20continua.',
     },
