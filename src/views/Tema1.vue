@@ -164,10 +164,10 @@
             img.mt-2(src='@/assets/curso/temas/tema1/tema1-img7.png', alt='Texto que describa la imagen')
         .col-lg-7.justify-content-center.mt-2
           p El ciclo del servicio hace referencia a los puntos de contacto a través de los cuales el cliente pasa, desde la interacción inicial hasta convertirse en un consumidor fiel de la marca (primer contacto, cierre de venta, servicio postventa). Le permiten a la organización conocer las debilidades y fortalezas percibidas por el cliente, a partir del contacto con la marca e identificar aquello que debe ser mejorado.
-          p Muñoz Benavides, G (2017) menciona que el ciclo básico para satisfacer necesidades se ve enriquecido con la inclusión de la filosofía de #[b mejora continua], con la cual se identifica la percepción del cliente con respecto a los aspectos que deben reforzarse en cuanto a la calidad, y con ello tomar las medidas necesarias para fortalecerlos hasta lograr la satisfacción de los requerimientos, necesidades y expectativas del cliente.
+          p Muñoz Benavides, G (2017), menciona que el ciclo básico para satisfacer necesidades se ve enriquecido con la inclusión de la filosofía de #[b mejora continua], con la cual se identifica la percepción del cliente con respecto a los aspectos que deben reforzarse en cuanto a la calidad, y con ello tomar las medidas necesarias para fortalecerlos hasta lograr la satisfacción de los requerimientos, necesidades y expectativas del cliente.
 
     .tarjeta.mt-3
-      .row.justify-content-center
+      .row.justify-content-center 
         .col-lg-9.justify-content-center
           .cajon.color-acento-contenido.p-3
             p Este ciclo debe incluir todas las fases que conforman la prestación de un servicio, desde su inicio hasta la final, y evaluar los resultados que se obtienen al cumplir los requerimientos y expectativas de los clientes.
@@ -230,7 +230,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            | ¿Existe un pre registro o registro previo a la llegada del evento que facilite el ingreso?
+            | ¿Existe un preregistro o registro previo a la llegada del evento que facilite el ingreso?
           li 
             .lista-ol--cuadro__vineta
               span 2
@@ -259,7 +259,7 @@
             | ¿El lugar está limpio?  
     hr.mt-0.mb-0                                       
 
-    .row.justify-content-around.align-items-center.mt-5.mb-4 
+    .row.justify-content-around.align-items-center.mt-5.mb-4
       .col-lg-3.zIndexCol.col-xs-10
         figure.imagenRedonda
           img(src='@/assets/curso/temas/tema1/tema1-img13.png', alt='Texto que describa la imagen')
