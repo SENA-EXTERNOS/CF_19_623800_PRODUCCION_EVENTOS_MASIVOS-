@@ -100,7 +100,7 @@
     #t_1_2
       h3 Canales del servicio
 
-    .row
+    .row.mb-5
       .col-lg-7.mb-5.mb-lg-0
         .bloque-texto-d.color-acento-contenido
           .bloque-texto-d__texto
@@ -109,7 +109,7 @@
       .col-lg-5.mb-5.mb-lg-0
         figure
           img.mt-4(src='@/assets/curso/temas/tema1/tema1-img5.svg', alt='Texto que describa la imagen').img-animacion2
-          h3.titulo-tercero Cajón texto color A
+          
     
       
     .row.justify-content-around.align-items-center 

@@ -1,12 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno()
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-        span
-          i.fas.fa-puzzle-piece
-      h1 Actividad didáctica     
+  BannerInterno(icono="fas fa-tasks" titulo="Actividad didáctica")
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5    
     
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
