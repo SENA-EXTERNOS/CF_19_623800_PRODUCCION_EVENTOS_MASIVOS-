@@ -16,8 +16,9 @@
             img(src="@/assets/curso/temas/actividad-img1.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 Arrastrar y soltar
-        p.mb-4 La presente actividad tiene como propósito validar la comprensión de los conceptos abordados. Para ello, debe relacionar cada uno de los términos con la definición correspondiente.
+          h2 Estrategias de evaluación de satisfacción del cliente
+        p La presente actividad tiene como propósito validar la comprensión de los conceptos abordados. 
+        p.mb-4 Para ello, debe relacionar cada uno de los términos con la definición correspondiente.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

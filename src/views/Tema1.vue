@@ -18,7 +18,7 @@
             img.mt-3(src='@/assets/curso/temas/tema1/tema1-img1.png', alt='Texto que describa la imagen').img-animacion1
       
       .row.mt-5
-        p El servicio al cliente es importante desde diferentes perspectivas y teniendo en cuenta los siguientes parámetros:
+        p.mb-4 El servicio al cliente es importante desde diferentes perspectivas y teniendo en cuenta los siguientes parámetros:
       .row
         .col-lg-5
           figure
@@ -45,8 +45,7 @@
     #t_1_1
       h3 El servicio
 
-    .row
-      p Un servicio puede ser definido como una actividad que es llevada a cabo por una organización, con el fin de satisfacer un requerimiento o necesidad del cliente. Sus características básicas son: 
+    p.mb-5 Un servicio puede ser definido como una actividad que es llevada a cabo por una organización, con el fin de satisfacer un requerimiento o necesidad del cliente. Sus características básicas son: 
 
     .row.justify-content-around.align-items-center         
       .row.justify-content-center
@@ -103,13 +102,14 @@
 
     .row
       .col-lg-7.mb-5.mb-lg-0
-        .bloque-texto-tema1
-          .bloque-texto-tema1__texto
-            p Con los avances en la tecnología, los clientes y las empresas tienen mayor posibilidad de interactuar, estar conectados entre sí y conocer los requerimientos para la organización de un excelente evento. En la comunicación actual es necesario contar con diferentes tipos de canales que den soporte a las preguntas, comentarios y sugerencias de los clientes, antes, durante y después del evento. Los procesos digitalizados facilitan aprender sobre el producto o servicio a ofrecer y de paso generar relaciones más cercanas.
+        .bloque-texto-d.color-acento-contenido
+          .bloque-texto-d__texto
+            p Con los avances en la tecnología, los clientes y las empresas tienen mayor posibilidad de interactuar, estar conectados entre sí y conocer los requerimientos para la organización de un excelente evento. En la comunicación actual es necesario contar con diferentes tipos de canales que den soporte a las preguntas, comentarios y sugerencias de los clientes, antes, durante y después del evento. Los procesos digitalizados facilitan aprender sobre el producto o servicio a ofrecer y de paso generar relaciones más cercanas.<br><br>
             p Veamos a continuación, otros tipos de canales que son usados para soportar las preguntas y/o sugerencias de los clientes:
       .col-lg-5.mb-5.mb-lg-0
         figure
           img.mt-4(src='@/assets/curso/temas/tema1/tema1-img5.svg', alt='Texto que describa la imagen').img-animacion2
+          h3.titulo-tercero Cajón texto color A
     
       
     .row.justify-content-around.align-items-center 
@@ -212,20 +212,18 @@
       h3 Momentos de verdad 
     
     .row
-      .bloque-texto-b
-        .bloque-texto-b__texto
-          p.mb-0 Son todos los momentos (buenos y malos) en los que el cliente entra en contacto con la organización, obteniendo una percepción frente a esta. La empresa puede recibir la opinión y calificación del usuario con relación al servicio recibido y su calidad para posteriormente actuar de manera ágil frente a cualquier imprevisto; adicionalmente, sirve para mantener actualizadas las estrategias de servicio al cliente enfocadas en la experiencia del usuario. De esta forma, la actitud de los empleados frente a estos momentos de verdad, lo son todo, por ello, cada empresa debe pensar como un cliente y actuar bajo valores como la empatía, la honestidad, la responsabilidad y la buena comunicación. 
+        .bloque-texto-d.color-acento-contenido
+          .bloque-texto-d__texto
+            p.mb-0 Son todos los momentos (buenos y malos) en los que el cliente entra en contacto con la organización, obteniendo una percepción frente a esta. La empresa puede recibir la opinión y calificación del usuario con relación al servicio recibido y su calidad para posteriormente actuar de manera ágil frente a cualquier imprevisto; adicionalmente, sirve para mantener actualizadas las estrategias de servicio al cliente enfocadas en la experiencia del usuario. De esta forma, la actitud de los empleados frente a estos momentos de verdad, lo son todo, por ello, cada empresa debe pensar como un cliente y actuar bajo valores como la empatía, la honestidad, la responsabilidad y la buena comunicación. 
     
     .row.mt-5
       p Ejemplo de un momento de verdad en un evento:
 
     .row.justify-content-center.align-items-center.colorMV
-      figure
-        img(src='@/assets/curso/temas/tema1/t1-27.png', alt='Texto que describa la imagen').decorativaT1
-      .col-lg-6.mt-2
+      .col-lg-6.mt-2.h-100
         figure
           img(src='@/assets/curso/temas/tema1/t1-26.png', alt='Texto que describa la imagen')
-      .col-lg-6.mt-2
+      .col-lg-6.mt-2.col-decorativa.h-100
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
@@ -256,8 +254,9 @@
           li 
             .lista-ol--cuadro__vineta
               span 7
-            | ¿El lugar está limpio?  
-    hr.mt-0.mb-0                                       
+            | ¿El lugar está limpio? 
+        img.tema1-img(src='@/assets/curso/temas/tema1/t1-27.png', alt='Texto que describa la imagen')     
+      hr.mt-0.mb-0                                       
 
     .row.justify-content-around.align-items-center.mt-5.mb-4
       .col-lg-3.zIndexCol.col-xs-10
@@ -315,7 +314,7 @@
             p.mt-2 Buzón de quejas y sugerencias virtual, sesiones de grupo para discutir un producto o servicio, encuestas al personal, aplicar cliente oculto, para saber cómo se comportan los empleados y cómo se dirigen a los clientes y encuesta de satisfacción al cliente.
 
 
-    .row.justify-content-around.align-items-center 
+    .row.justify-content-around.align-items-center.mt-5
       .col-10
         .tarjeta.color-primario.p-3.mb-5
           .row.justify-content-around.align-items-center

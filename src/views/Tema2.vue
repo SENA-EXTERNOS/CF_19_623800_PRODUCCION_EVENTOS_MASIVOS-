@@ -11,8 +11,8 @@
       .row.justify-content-center
         .col-lg-8.justify-content-center
           p Para satisfacer las necesidades de los clientes es necesario contar con información sobre sus percepciones, necesidades y expectativas, que se convierten en insumos básicos para determinar el nivel de calidad recibido por los usuarios.
-          .bloque-texto-tema2
-            .bloque-texto-tema2__texto
+          .bloque-texto-d.color-acento-contenido
+            .bloque-texto-d__texto
               p.mb-0 El cliente consigue productos o servicios con las mismas características e igualdad de precio entre competidores, por ello, la única manera de generar una real diferencia es enfocándose en la calidad, la cual debe superar los niveles de exigencia del usuario. Es necesario medir sus resultados, para lo cual existen diferentes métodos que arrojaran datos importantes para mejorar el servicio y continuar ofreciendo una excelente calidad.              
         .col-lg-4
           figure
@@ -111,9 +111,9 @@
     
 
     #t_2_2
-      h3 Normas de Calidad
+      h3 Normas de calidad
     
-    .tarjeta.color-adicional-1.mt-5
+    .tarjeta.color-adicional-1.mt-4
       .row.justify-content-center
         .col-lg-7.justify-content-center
           p La calidad es el resultado del esfuerzo conjunto de un grupo de personas orientadas hacia un fin común mediante la aplicación de sus virtudes, tanto técnicas personales como administrativas, para lograr la producción de bienes o servicios. Estas dan el máximo de satisfacción de los consumidores al menor costo posible, aplicando las herramientas de control disponibles para este propósito. (Montejano, 2008, p.21)
@@ -158,8 +158,8 @@
     .row.justify-content-center
       h4 Normas ISO 9000, 9001, 19011 
       
-      .bloque-texto-tema3
-        .bloque-texto-tema3__texto
+      .bloque-texto-d.color-acento-contenido.mb-4
+        .bloque-texto-d__texto
           p.mb-0 Las normas ISO están orientadas a ordenar la gestión de una empresa en sus distintos ámbitos. Aunque su implementación es de carácter voluntario, han ganado gran reconocimiento y aceptación internacional debido a la importancia que ha tomado la figura y la opinión de los consumidores. El Organismo Internacional de Estandarización (ISO) es quien establece las normas ISO que están conformadas por estándares y guías relacionados con sistemas y herramientas específicas de gestión que pueden ser aplicadas en todo tipo de organización.
       
       .col-lg-10.mt-2.md-6
@@ -176,8 +176,8 @@
           .row.justify-content-center
             .col-lg-3.imgCambio2
             .col-lg-9
-              .bloque-texto-tema4
-                .bloque-texto-tema4__texto
+              .bloque-texto-d.color-acento-contenido.mb-5
+                .bloque-texto-d__texto
                   p.mb-0 Existen muchas normas ISO que constantemente se actualizan y paralelamente aparecen otras nuevas. Para una mayor identificación y clasificación, se agrupan por familias o series con una nomenclatura específica, por ejemplo, la familia Gestión de Calidad (serie ISO 9000) son normas cuyo objetivo es homogeneizar los estándares de calidad de los productos o servicios de las organizaciones públicas y privadas, independientemente de su tamaño o actividad.
 
     .row
@@ -214,10 +214,11 @@
 
     .row.justify-content-around.aling-items-center.mb-5.mt-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-        .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-img17.svg')})`}")
+        .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-img17.jpg')})`}")
         .bloque-texto-g__texto.p-3
           p Adicional a las anteriores, encontramos también la Norma ISO 19011, la cual especifica las directrices para la auditoría de los sistemas de gestión. En el 2018 se crea la tercera versión de esta norma, enfocada en las auditorías internas y aquellas realizadas por las organizaciones a sus proveedores externos y a otras partes interesadas externas. Se busca aplicar este instrumento a un amplio rango de usuarios como lo son auditores, empresas que busquen implementar sistemas de gestión y aquellas organizaciones que necesitan realizar auditorías de sistemas de gestión por razones reglamentarias o contractuales. A pesar del enfoque anterior, este documento también puede ser aplicado para las empresas que desean desarrollar sus propios requisitos relacionados con auditorías. 
 
+            
     .row
       h4 Normas Técnicas de Sostenibilidad NTS-TS
 
