@@ -10,7 +10,7 @@
     
     // img(src="@/assets/curso/temas/sintesis-img1.svg", alt="alt").imagen-sintesis-1
 
-    p.mb-5 Lo invitamos a consultar la siguiente síntesis de los temas abordados. 
+    p.mb-5 Lo invitamos a consultar la siguiente síntesis de los temas abordados:
     
     .row.justify-content-center
       .col-lg-10.mb-5
