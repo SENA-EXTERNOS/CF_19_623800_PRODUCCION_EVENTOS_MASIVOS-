@@ -269,7 +269,7 @@
       p La organización de eventos se considera parte del sector turístico, ya que su desarrollo aporta al crecimiento de un destino mediante la movilización de turistas y visitantes, sin perder de vista que muchos eventos se constituyen en sí mismos como un atractivo turístico, como es el caso del Carnaval de Barranquilla, la feria de las flores, entre otros ejemplos a nivel nacional.
       p Lo invitamos a ver el siguiente video, donde se profundizará sobre las normas técnicas de sostenibilidad en los eventos:
       .video 
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/uULZ-blqndY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption VIDEO
 
     .row.justify-content-around.align-items-center
