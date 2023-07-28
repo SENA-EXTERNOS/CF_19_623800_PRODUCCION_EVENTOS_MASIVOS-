@@ -62,7 +62,7 @@
               figure
                 img.px-md-2(src='@/assets/curso/temas/tema1/tema1-img22.svg', alt='Texto que describa la imagen').img_lineaTD
             .col-lg-10  
-              p.mt-2 Todos son diferentes; casi nunca coinciden entre sí ya que generalmente son creados teniendo en cuenta las características de cada cliente. En un servicio no existe la fabricación en masa donde se genera la igualdad, por tanto, cada momento es totalmente diferente y con ello la percepción de un cliente también lo es.
+              p.mt-2 Todos son diferentes; casi nunca coinciden entre sí, ya que generalmente son creados teniendo en cuenta las características de cada cliente. En un servicio no existe la fabricación en masa donde se genera la igualdad, por tanto, cada momento es totalmente diferente y con ello la percepción de un cliente también lo es.
 
           .row(numero="3" titulo="Inseparabilidad")
             .col-lg-2
@@ -163,7 +163,7 @@
           figure
             img.mt-2(src='@/assets/curso/temas/tema1/tema1-img7.png', alt='Texto que describa la imagen')
         .col-lg-7.justify-content-center.mt-2
-          p El ciclo del servicio hace referencia a los puntos de contacto a través de los cuales el cliente pasa, desde la interacción inicial hasta convertirse en un consumidor fiel de la marca (primer contacto, cierre de venta, servicio postventa). Le permiten a la organización conocer las debilidades y fortalezas percibidas por el cliente, a partir del contacto con la marca e identificar aquello que debe ser mejorado.
+          p El ciclo del servicio hace referencia a los puntos de contacto a través de los cuales el cliente pasa, desde la interacción inicial hasta convertirse en un consumidor fiel de la marca (primer contacto, cierre de venta, servicio posventa). Le permiten a la organización conocer las debilidades y fortalezas percibidas por el cliente, a partir del contacto con la marca e identificar aquello que debe ser mejorado.
           p Muñoz Benavides, G (2017), menciona que el ciclo básico para satisfacer necesidades se ve enriquecido con la inclusión de la filosofía de #[b mejora continua], con la cual se identifica la percepción del cliente con respecto a los aspectos que deben reforzarse en cuanto a la calidad, y con ello tomar las medidas necesarias para fortalecerlos hasta lograr la satisfacción de los requerimientos, necesidades y expectativas del cliente.
 
     .tarjeta.mt-3
@@ -228,7 +228,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            | ¿Existe un preregistro o registro previo a la llegada del evento que facilite el ingreso?
+            | ¿Existe un prerregistro o registro previo a la llegada del evento que facilite el ingreso?
           li 
             .lista-ol--cuadro__vineta
               span 2

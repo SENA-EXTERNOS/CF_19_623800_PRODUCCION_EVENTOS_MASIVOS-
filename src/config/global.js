@@ -251,7 +251,8 @@ export default {
     {
       referencia:
         'Monsalve y Hernández (2015). Gestión de la calidad del servicio en la Hotelería como elemento clave en el desarrollo de destinos turísticos sostenibles: Caso Bucaramanga. Revista Escuela de Administración de Negocios.',
-      link: '',
+      link:
+        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-81602015000100011 ',
     },
     {
       referencia:
