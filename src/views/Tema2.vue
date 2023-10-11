@@ -227,7 +227,7 @@
         .col-lg-7.justify-content-center.p-3
           p Las directrices para el desarrollo de unas correctas prácticas de gestión sostenible en el turismo, se aplican a todos los destinos y también todos los subsectores que lo componen, incluso el turismo de masas. La sostenibilidad y el turismo están estrechamente relacionados, ya que este sector impacta en todas las dimensiones básicas como lo son la económica, lo social y lo medioambiental, por ello, sus prácticas deben buscar un equilibrio adecuado entre esas tres dimensiones para asegurar la sostenibilidad en el largo plazo.
           .cajon.color-secundario2.p-3
-            p Las normas técnicas de sostenibilidad son, por tanto, instrumentos creados por el ICONTEC (Instituto Colombiano de Normas Técnicas y Certificación) que impulsan el enfoque de desarrollo sostenible y de responsabilidad social en el sector turismo, en aspectos económicos, socioculturales, ambientales y de gestión. La certificación es aplicable a:
+            p Las normas técnicas de sostenibilidad son, por tanto, instrumentos creados por el ICONTEC (Instituto Colombiano de Normas Técnicas y Certificación) que impulsan el enfoque de desarrollo sostenible y de responsabilidad social en el sector turismo, en aspectos económicos, socioculturales, ambientales y de gestión.
         .col-lg-5
           figure
             img.mt-5(src='@/assets/curso/temas/tema2/tema2-img18.svg', alt='Texto que describa la imagen')
